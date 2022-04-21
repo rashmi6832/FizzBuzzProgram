@@ -5,6 +5,10 @@
 * If given number is divisable by 3 and 5, return "FizzBuzz".
 * If none of the above, then return the number itself. 
 
+# Assumtions
+
+* User input should be a ositive value which is greater than  or equal to 0.
+
 ## Prerequisites
 
 * Java - Version 1.6 or higher
