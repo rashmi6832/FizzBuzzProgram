@@ -1,6 +1,8 @@
-import org.hamcrest.CoreMatchers;
+package test.com.bnpp.kata;
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.bnpp.kata.FizzBuzz;
 
 
 public class FizzBuzzTest {
@@ -9,8 +11,7 @@ public class FizzBuzzTest {
 	public void testParseNumber() {
 		
 		FizzBuzz fizzBuzz = new FizzBuzz();
-
-		Assert.assertEquals(0,fizzBuzz.parseNumber(0));
+		Assert.assertEquals("0",fizzBuzz.parseNumber(0));
 	}
 
 }
