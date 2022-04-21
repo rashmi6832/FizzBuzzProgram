@@ -7,6 +7,12 @@ public class FizzBuzz {
 	
 		if(number<3 ||( number%3 != 0 && number%5 != 0 )){
 			result=String.valueOf(number); 
+		}else if(number%3 == 0 && number%5 == 0){
+			result="FizzBuzz";
+		}else if(number%3 == 0){
+			result="Fizz";
+		}else if(number%5 == 0){
+			result="Buzz";
 		}
 		return result;
 	}

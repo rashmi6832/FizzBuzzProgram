@@ -12,6 +12,9 @@ public class FizzBuzzTest {
 		
 		FizzBuzz fizzBuzz = new FizzBuzz();
 		Assert.assertEquals("0",fizzBuzz.parseNumber(0));
+		Assert.assertEquals("Fizz",fizzBuzz.parseNumber(3));
+		Assert.assertEquals("Buzz",fizzBuzz.parseNumber(5));
+		Assert.assertEquals("FizzBuzz",fizzBuzz.parseNumber(15));
 	}
 
 }
